@@ -1,0 +1,42 @@
+
+from math import *
+
+num1 = float(input('Введите первое число: '))
+print('')
+num2 = float(input('Введите второе число: '))
+print('')
+work = input('Действие: ')
+print('')
+
+if work == '-':
+    print('Ответ:',)
+    print(num1-num2)
+
+elif work == '+':
+    print('Ответ:')
+    print(num1+num2)
+
+elif work == '*':
+    print('Ответ:')
+    print(num1*num2)
+
+elif work == '/' or work == ':':
+    print('Ответ:')
+    print(num1/num2)
+
+elif work == 'pow' or work == '**':
+    print('Ответ:')
+    print(pow(num1, num2))
+
+elif work == 'sqrt' or work == '**(1/2)':
+    print('Ответ:')
+    print(sqrt(num1))
+
+elif work == '%':
+    print('Ответ:')
+    print(num1%num2)
+
+else:
+    print('ERROR!')
+    print('')
+    print('Вы ввели неверное значение!')
